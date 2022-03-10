@@ -6,7 +6,6 @@ int main()
     a = 2; 
     printf("Hello World");
     printf("\n") ; 
-    
     printf("%d", a) ; 
     return 0;
 }
