@@ -44,8 +44,10 @@ void populate_array(int *array, int array_lenght){
 void find_min_max(int *array, int array_lenght, int *min, int *max){
     // Finds the min and max values of the array and adds it to pointer
     // variablse *min, *max defined in main() 
-    int min_, max_;
-    *min, *max  = array[0];
+
+    *min = array[0];
+    *max = array[0];
+
     for (int i=0; i<array_lenght; i++) {
         *min = MIN(*min,array[i]);
         *max = MAX(*max, array[i]);     

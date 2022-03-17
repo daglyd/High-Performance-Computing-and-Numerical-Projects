@@ -2,6 +2,12 @@
 #include <stdio.h>
 
 int main(){
-    printf("Hello World! ") ; 
-    return 0 ; 
+    int x = 2;
+
+    int *aptr = &x;
+    int aptr2 = &x; 
+
+    int d; 
+
+
 }
